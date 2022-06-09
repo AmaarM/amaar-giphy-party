@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #333;
+}
+
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.party-img{
+    width: 150px;
+}
+
+.title{
+   color: white;
+}
+
+.header-wrapper{
+    display: flex;
+}
+
+.gif-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.inner-gif-area{
+    text-align: center;
+}
+.individual-gif{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.spacer{
+    margin-top: 40px;
+}
+
+.get-more{
+    display: flex;
+    justify-content: space-around;
+}
