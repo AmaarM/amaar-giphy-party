@@ -70,12 +70,12 @@ body{
 
 .box{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .party-img{
-    width: 125px;
-    margin: 5px
+    width: 30px;
+    margin: 10px
 }
 
 .closed{
