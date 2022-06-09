@@ -19,10 +19,7 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-}
-
-.party-img{
-    width: 150px;
+    justify-content: space-evenly;
 }
 
 .title{
@@ -33,19 +30,13 @@ body{
     display: flex;
 }
 
-.gif-area{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-top: 25px;
-}
-.inner-gif-area{
+.outer-gif-area{
     text-align: center;
 }
 .individual-gif{
     width: 300px;
     height: 300px;
-    margin: 10px;
+    margin: 15px;
 }
 
 .spacer{
@@ -55,4 +46,55 @@ body{
 .get-more{
     display: flex;
     justify-content: space-around;
+}
+
+.more-pics{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: opacity .15s;
+    margin: 15px;
+}
+.more-pics:hover{
+    opacity: .5;
+}
+
+
+.form-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.party-img{
+    width: 30px;
+    margin: 5px
+}
+
+.closed{
+    display: none;
+}
+
+#input-box, #submit{
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: opacity .15s;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+
+}
+
+#submit{
+    border-radius: 0px;
+    
 }
