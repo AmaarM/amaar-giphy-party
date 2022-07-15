@@ -91,10 +91,8 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 5px;
-
+    border-radius: 3px;
 }
-
-#submit{
-    border-radius: 0px;
-    
+#submit:hover{
+  opacity: .5;
 }
